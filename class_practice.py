@@ -2,7 +2,7 @@
 
 class Person:
 
-    def init(self, name, age):
+    def _init_(self, name, age):
         self.name = name
         self.age = age
 
@@ -19,7 +19,7 @@ p1.introduce()
 
 class Book:
 
-    def init(self, title, author, pages):
+    def _init_(self, title, author, pages):
         self.title = title
         self.author = author
         self.pages = pages
